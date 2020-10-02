@@ -1,0 +1,60 @@
+<%- include("partials/header"); -%>
+
+
+<div class="container-fluid container-home">
+    <div class="content">
+        <h1>Got a movie or a series name?</h1>
+        <form action="/" method="POST">
+            <div class="form-group">
+                <input type="text" name="movieName" class="form-control" placeholder="Enter a movie name">
+            </div>
+            <button type="submit" class="btn btn-primary btn-col">Search</button><br>
+            <a href="#detailSearch" target="detailSearch" class="detail">Detail Search?</a>
+        </form>
+    </div>
+</div>
+<div class="container">
+    <div class="how-it-works">
+        <h2 class="how">HOW IT WORKS</h2>
+        <div class="bottom-border"></div>
+        <div class="row">
+            <div class="col-lg-4 working">
+                <h3>YOU SEARCH</h2>
+                    <p>When you search through a movie name or through detail search the query is posted.</p>
+                    <i class="fas fa-search"></i>
+            </div>
+
+            <div class="col-lg-4 working">
+                <h3>API CALL</h2>
+                    <p>We use MDB's API, to be specific we use OMDB's api which sends data in JSON Format.</p>
+                    <i class="fas fa-globe"></i>
+            </div>
+
+            <div class="col-lg-4 working">
+                <h3>RESULT</h2>
+                    <p>We display the result in a very clean interface that is why this website Exists.</p>
+                    <i class="fas fa-poll-h"></i>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid container-home container-bottom">
+    <div class="content">
+        <h1 id="detailSearch">Detail Search</h1>
+        <form action="/year" method="post">
+            <div class="row">
+                <div class="col col-sm-6">
+                    <input type="text" class="form-control" placeholder="Title">
+                </div>
+                <div class="col col-sm-6">
+                    <input type="text" class="form-control" name="year" placeholder="Year">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-col">Search</button><br>
+        </form>
+    </div>
+</div>
+
+
+
+<%- include("partials/footer"); -%>

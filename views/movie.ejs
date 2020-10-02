@@ -1,0 +1,39 @@
+<%- include("partials/header"); -%>
+
+<div class="container container-shadow-box">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="poster-img">
+             <img src="<%= poster %>"  height="427px" alt="poster">
+            </div>
+        </div>
+        <div class="col-md-8 col-left">
+
+            <div class="row ">
+                <div class="col">
+                    <h2 class="title">Syrup</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <p class="head">Title: <span class="data"><%= movieTitle %></span> </p>
+                    <p class="head">Year: <span class="data"><%= movieYear %></span></p>
+                    <p class="head">Rated: <span class="data"><%= movieRated %></span></p>
+                    <p class="head">Released: <span class="data"><%= movieReleased %></span></p>
+                    <p class="head">Runtime: <span class="data"><%= movieRuntime %></span></p>
+                    <p class="head">Genre: <span class="data"><%= movieGenre %></span></p>
+                    <p class="head">Language: <span class="data"><%= movieLanguage %></span></p>
+                    <p class="head">Country: <span class="data"><%= movieCountry %></span></p>
+                    <p class="head">Awards: <span class="data"><%= movieAwards %></span></p>
+                    <p class="head">Director: <span class="data"><%= movieDirector %></span></p>
+                    <p class="head">Actors: <span class="data"><%= movieActors %></span></p>
+                    <p class="head">Plot: <span class="data"><%= moviePlot %></span></p>
+                    <p class="head">Production: <span class="data"><%= movieProduction %></span></p>                     
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- include("partials/footer"); -%>

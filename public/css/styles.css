@@ -1,0 +1,169 @@
+
+body{
+    background-color: #eeeeee;
+    height: 100%;
+}
+/* Navigation */
+.bg-dark {
+    background-image: linear-gradient( #0d7377, #0d7377);
+}   
+
+/** background-color: linear-gradient( #000000, #212121); **/
+
+/* Home Body */
+
+.container-home {
+    background-image: linear-gradient(#0d7377, #32e0c4);
+    height: 500px;
+}
+
+.content {
+    width: 50%;
+    margin: auto;
+    text-align:center;
+    color:white;
+    padding: 10px;
+}
+@media (max-width: 650px){
+    .content{
+        width: 90%;
+    }
+}
+
+.btn-col{
+    background-color: #0d7377;
+    border-color: #0d7377;
+}
+
+.btn-col:hover{
+    background-color: #212121;
+    border-color: #212121;
+}
+
+h1 {
+    padding-top: 150px;
+}
+
+input[type=text]{
+    margin-top: 20px;
+}
+
+button{
+    margin-top: 20px;
+}
+
+.detail{
+    color: white;
+    text-decoration: underline;
+    font-size: 0.8rem;;
+}
+/* how it works section */
+
+.how-it-works{
+    text-align: center;
+}
+
+i{
+    color: #0d7377;
+    font-size: 4rem;;
+}   
+.how{
+    padding: 2%;
+    margin-top: 30px;
+}
+
+.bottom-border {
+    border-bottom: 5px dotted #0d7377;
+    width: 4%;
+    margin: auto;
+    margin-top: -7px;
+}
+
+.working{
+    margin-top: 20px;
+    padding-top: 4%;
+    margin-bottom: 40px;
+}
+
+p{
+    border-top: 5px dotted #0d7377;
+    margin-top: 20px;
+    padding-top: 15px;
+}
+
+
+/* Container Bottom Detail Search */
+
+.container-bottom{
+    margin-top: 100px;
+}
+
+@media (max-width:650px) {
+    container-bottom{
+        padding: 5%;
+        margin: 5px;
+
+    }
+}
+
+
+
+
+
+/* Footer */
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    color: black;
+    width: 100%;
+    height: 120px;
+}
+
+footer i {
+    font-size: 1.2rem;
+    color: black;
+}
+
+
+/* Movie Page */
+.container-shadow-box{
+    background-color: #fff;
+    box-shadow: -1px 4px 8px 2px #d0d0d0;
+    margin-top: 15px;
+}
+
+.main-row{
+    padding: 1%;
+}
+
+.row{
+    padding: 10px;
+}
+
+.row-inline{
+    display:inline-block;
+}
+
+.title{
+    font-size: 2rem;
+    
+}
+
+.head{
+    font-weight: 900;
+    border: none;
+    padding: 0px;
+}
+
+.col-left{
+    border-left: 1px solid rgb(182, 182, 182);
+}
+
+.data{
+    font-weight: 100;
+}
+
+.pad {
+    padding: 5%;
+}
